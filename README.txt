@@ -1,5 +1,4 @@
-# CS344_Program3
- 
+
 Files: smallsh.c smallsh_builtins.c smallsh_builtins.h makefile
  
 Directions for Compiling smallsh.
