@@ -1,8 +1,8 @@
 /* Author: David Eaton
  * Date: 05/07/2020
  * Last Revised: 05/19/2020
- * File Name: smallsh.c
- * Description: This program creates a small shell for a linux environment using C. The shell supports 3 built-in commands: exit, cd, status. These 3 built-in commands are
+ * File Name: shell_lite.c
+ * Description: This program creates a light-weight shell for a linux environment using C. The shell supports 3 built-in commands: exit, cd, status. These 3 built-in commands are
  * 		handled by the shell itself and do not support manual background/foreground functionality. For non-built-in commands both background and foreground
  * 		functionality is supported. Comments starting with # are supported as well. This program can support command lines with a maximum of 2048 characters and a 
  * 		maximum of 512 arguments(command [arg1 arg2 ...arg512]). There is no support for quoting(arguments with spaces), and no support for the | operator. SIGINT
