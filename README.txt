@@ -5,7 +5,7 @@ Directions for compiling shell_lite .
 
 To compile the program simply type "make" into the command line and press enter. (Don't type "")
 
-Executable name is "shell_lite", simply type shell_lite to run.
+Executable name is "shellLite", simply type shell_lite to run.
 
 
 To remove executables and object files simply type "make clean" and press enter. (Don't type "")
