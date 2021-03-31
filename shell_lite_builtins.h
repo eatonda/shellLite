@@ -1,8 +1,8 @@
 /* Author: David Eaton
 * Date: 05/07/2020
 * Last Revised: 05/19/2020
-* File Name: smallsh_builtins.h
-* Description: This is the function declaration file for the built in functions utilized in the smallsh shell. This
+* File Name: shell_lite_builtins.h
+* Description: This is the function declaration file for the built in functions utilized in the shellLite shell. This
 *              includes functions that assist the shell with function executions.
 * Citations:
 *         1. Chauhan, Anuj "C program to Replace a word in a text by another given word"
@@ -61,4 +61,4 @@ void shiftLeft(char**, int s, int c);            //Shifts array of strings to le
 
 
 
-#endif /* smallsh_builtins_h */
+#endif /* shell_lite_builtins_h */
