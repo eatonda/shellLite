@@ -4,18 +4,18 @@
 
 #Date: 5/19/20
 
-#Program Description: This program is a makefile that compiles the files for program 3.
+#Program Description: This program is a makefile that compiles the files for shellLite.
 #Citation: The overall structure was inspired by the class module make help: "Introduction to Makefiles: How to Create a Simple Makefile."
 #(https://oregonstate.instructure.com/courses/1719543/pages/make-help?module_item_id=18712386)
 
-smallsh: smallsh.o smallsh_builtins.o
-	gcc smallsh.o smallsh_builtins.o -o smallsh
+shellLite: shell_lite.o shell_lite_builtins.o
+	gcc shell_lite.o shell_lite_builtins.o -o shellLite
 
-smallsh.o: smallsh.c
-	gcc -c smallsh.c
+shell_lite.o: shell_lite.c
+	gcc -c shell_lite.c
 
-smallsh_builtins.o: smallsh_builtins.c smallsh_builtins.h
-	gcc -c smallsh_builtins.c
+shell_lite_builtins.o: shell_lite_builtins.c shell_lite_builtins.h
+	gcc -c shell_lite_builtins.c
 
 clean:
-	rm *.o  smallsh
+	rm *.o  shellLite
