@@ -1,8 +1,8 @@
 /* Author: David Eaton
 * Date: 05/07/2020
 * Last Revised: 05/19/2020
-* File Name: smallsh_builtins.c
-* Description: This is the function implementation file for the built in functions utilized in the smallsh shell.               This includes functions that assist the shell with function executions.
+* File Name: shell_lite_builtins.c
+* Description: This is the function implementation file for the built in functions utilized in the shellLite shell.               This includes functions that assist the shell with function executions.
 * Citations:
 *         1. Chauhan, Anuj "C program to Replace a word in a text by another given word"
               https://www.geeksforgeeks.org/c-program-replace-word-text-another-given-word/
