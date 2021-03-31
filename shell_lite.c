@@ -15,7 +15,7 @@
  */
 
 #include <stdio.h>
-#include "smallsh_builtins.h"
+#include "shell_lite_builtins.h"
 
 #define BUFFER_MAX 2048
 #define COMMAND_PROMPT_MAX 2
