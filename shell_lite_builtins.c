@@ -12,7 +12,7 @@
           4. Brewster, Benjamin "Signals" Assisted with setting up signal handlers
           5. Brewster, Benjamin "More UNIX I/O" Assisted with I/O redirection
 */
-#include "smallsh_builtins.h"
+#include "shell_lite_builtins.h"
 
 /* Function to initialize process */
 void initProcess(struct process* p) {
